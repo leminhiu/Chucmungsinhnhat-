@@ -12,15 +12,15 @@ ageButtons.forEach(btn => {
     if (selected === correctAge) {
       agePopup.innerHTML = `
         <center><img src="https://i.pinimg.com/736x/47/c2/49/47c2493fecd4a231eddc88b69991cc27.jpg" alt="Congrats" style="width: 140px;"/></center>
-        <h2>Giỏi! Trung thực 😎</h2>
-        <p>Hỏi chơi cho zui thôi bà 😏</p>
+        <h2>con giỏi lắm 😎</h2>
+        <p>Hỏi chơi cho zui thôi 😏</p>
         <button class="close-btn" onclick="agePopup.classList.remove('show')">Zui zẻ không quạo</button>
       `;
     } else {
       agePopup.innerHTML = `
         <center><img src="https://i.pinimg.com/736x/81/f1/74/81f17472464b344c13286ef3ef2ab794.jpg" alt="Wrong" style="width: 120px;"/></center>
-        <h2>Ủa là sao dị bà? 😤</h2>
-        <p>Cho mi chọn lại 1 lần nữa đó!!!</p>
+        <h2>m đùa bố m đấy à 😤</h2>
+        <p>Cho m chọn lại 1 lần nữa !!!</p>
         <button class="close-btn" onclick="location.reload()">Đoán lại cho bố 🫤</button>
       `;
     }
@@ -72,11 +72,11 @@ const musicBtn = document.getElementById("music-btn");
   });
 
   const messages = [
-    "Sinh nhật dui dẻ nha bà, quý lắm mới chúc á nha bà! 💝🎂.",
-    "Mong sao tuổi mới bà sẽ mang đến thật nhiều hạnh phúc và sức khỏe dồi dào! 🎉✨.",
-    "Chúc sao cho bà luôn thành công nữa nè, làm gì cũng thuận lợi 🥰🍀.",
-    "Thêm một tuổi mới, chúc sao cho bà luôn dui dẻ bên bạn bè, gia đình và người bà luôn yêu thương 🤗💞.",
-    "Hãy tận hưởng ngày đặc biệt này với thật nhiều niềm vui và tiếng cười nhé! ❤️🎈"
+    "Sinh nhật dui dẻ nha huy, quý lắm mới chúc á  ! 💝🎂.",
+    "Mong sao tuổi mới huy sẽ mang đến thật nhiều hạnh phúc và sức khỏe dồi dào! 🎉✨.",
+    "Chúc sao cho huy luôn thành công nữa , làm gì cũng thuận lợi 🥰🍀.",
+    "Thêm một tuổi mới, chúc sao cho huy luôn dui dẻ bên bạn bè, gia đình và người huy luôn yêu thương 🤗💞.",
+    "Hãy tận hưởng ngày đặc biệt này với thật nhiều niềm vui và tiếng cười nhé anh yêu =)) ❤️🎈"
   ];
   const typingTextElem = document.getElementById("typing-text");
   let msgIndex = 0;
